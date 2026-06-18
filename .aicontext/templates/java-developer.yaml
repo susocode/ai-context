@@ -1,0 +1,21 @@
+---
+title: Java Developer
+description: Everything for Java/Spring Boot development — conventions, review agents and code skills.
+version: 1.0.0
+---
+rules:
+  - code-style.md
+  - no-comments.md
+  - git-conventions.md
+  - .claude/tool-use.md
+agents:
+  - coder.md
+  - reviewer.md
+  - .claude/tester.md
+skills:
+  - code-review.md
+  - generate-tests.md
+  - refactor.md
+prompts:
+  - api-design.md
+  - .claude/amiga-java-apifirst.md
