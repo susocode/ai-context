@@ -1,0 +1,19 @@
+---
+title: TypeScript Frontend
+description: Rules and skills for TypeScript/React development with type safety focus.
+version: 1.0.0
+---
+rules:
+  - code-style.md
+  - no-comments.md
+  - git-conventions.md
+agents:
+  - coder.md
+  - researcher.md
+skills:
+  - add-types.md
+  - refactor.md
+  - explain-code.md
+  - fix-bug.md
+prompts:
+  - summarize-pr.md
