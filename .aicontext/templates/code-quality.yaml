@@ -1,0 +1,22 @@
+---
+title: Code Quality
+description: Comprehensive code quality toolkit — review, refactor, test and document.
+version: 1.0.0
+---
+rules:
+  - code-style.md
+  - no-comments.md
+  - git-conventions.md
+  - .claude/tool-use.md
+agents:
+  - coder.md
+  - reviewer.md
+  - .claude/tester.md
+skills:
+  - code-review.md
+  - generate-tests.md
+  - refactor.md
+  - fix-bug.md
+  - document-code.md
+prompts:
+  - summarize-pr.md
